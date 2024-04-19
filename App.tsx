@@ -3,10 +3,9 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import CategoryScreen from './screens/CategoryScreen';
 import ItemListScreen from './screens/ItemListScreen';
-import {ItemProvider} from './screens/ItemContext';
 import QuestionDetailScreen from './screens/QuestionDetailScreen';
 const Stack = createStackNavigator();
-
+//hijh
 const App = () => {
   return (
     <NavigationContainer>

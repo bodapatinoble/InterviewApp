@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {useItemContext} from './ItemContext';
-import {getDatabase, ref, child, get, set} from 'firebase/database';
+import {ref, child, get, set} from 'firebase/database';
 import {db} from '../components/config';
 // Creating a context to hold the questions a
 
